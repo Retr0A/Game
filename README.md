@@ -1,6 +1,11 @@
-# Walnut App Template
-
-This is a simple app template for [Walnut](https://github.com/TheCherno/Walnut) - unlike the example within the Walnut repository, this keeps Walnut as an external submodule and is much more sensible for actually building applications. See the [Walnut](https://github.com/TheCherno/Walnut) repository for more details.
+# Hero Jumper
+Hero Jumper is Sandbox game from Retr0Studios.
 
 ## Getting Started
-Once you've cloned, you can customize the `premake5.lua` and `WalnutApp/premake5.lua` files to your liking (eg. change the name from "WalnutApp" to something else).  Once you're happy, run `scripts/Setup.bat` to generate Visual Studio 2022 solution/project files. Your app is located in the `WalnutApp/` directory, which some basic example code to get you going in `WalnutApp/src/WalnutApp.cpp`. I recommend modifying that WalnutApp project to create your own application, as everything should be setup and ready to go.
+If you want to compile Hero Jumper from its source code, then follow these steps:
+
+1. Open Command Prompt(CMD) by typing on the adress line in File Exporer `cmd` and press `Enter`.
+2. On the opened CMD type ```git clone https://github.com/Retr0A/Game ```
+  > To update the submodules type ```git submodule update --init```
+3. Open `scripts/Setup.bat` to Generate the Project Files.
+4. Open the solution(`.sln`) file and you're ready to go.
